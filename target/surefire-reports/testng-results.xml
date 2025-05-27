@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="11" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-27T17:42:20 CEST" name="Surefire suite" finished-at="2025-05-27T17:43:04 CEST" duration-ms="43852">
+    <groups>
+    </groups>
+    <test started-at="2025-05-27T17:42:20 CEST" name="Surefire test" finished-at="2025-05-27T17:43:04 CEST" duration-ms="43852">
+      <class name="tests.LoginTest_PagePractise">
+        <test-method is-config="true" signature="configureLogging()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:20 CEST" name="configureLogging" finished-at="2025-05-27T17:42:20 CEST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureLogging -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:21 CEST" name="setUp" finished-at="2025-05-27T17:42:23 CEST" duration-ms="2666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:23 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:24 CEST" duration-ms="1083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="loginSuccessfully()[pri:1, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:24 CEST" name="loginSuccessfully" finished-at="2025-05-27T17:42:29 CEST" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:29 CEST" name="tearDown" finished-at="2025-05-27T17:42:29 CEST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:29 CEST" name="setUp" finished-at="2025-05-27T17:42:30 CEST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:30 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:31 CEST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="loginInvalidPassword()[pri:2, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:31 CEST" name="loginInvalidPassword" finished-at="2025-05-27T17:42:34 CEST" duration-ms="2745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:34 CEST" name="tearDown" finished-at="2025-05-27T17:42:34 CEST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:34 CEST" name="setUp" finished-at="2025-05-27T17:42:35 CEST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:35 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:36 CEST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="loginEmptyFields()[pri:3, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:36 CEST" name="loginEmptyFields" finished-at="2025-05-27T17:42:36 CEST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:36 CEST" name="tearDown" finished-at="2025-05-27T17:42:36 CEST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:36 CEST" name="setUp" finished-at="2025-05-27T17:42:37 CEST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:37 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:38 CEST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="loginWithOnlyUsername()[pri:4, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:38 CEST" name="loginWithOnlyUsername" finished-at="2025-05-27T17:42:39 CEST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:39 CEST" name="tearDown" finished-at="2025-05-27T17:42:39 CEST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:39 CEST" name="setUp" finished-at="2025-05-27T17:42:40 CEST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:40 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:40 CEST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="loginOnlyWithPassword()[pri:5, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:40 CEST" name="loginOnlyWithPassword" finished-at="2025-05-27T17:42:43 CEST" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOnlyWithPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:43 CEST" name="tearDown" finished-at="2025-05-27T17:42:43 CEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:43 CEST" name="setUp" finished-at="2025-05-27T17:42:44 CEST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:44 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:45 CEST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="usernameFieldIsDisplayed()[pri:6, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:45 CEST" name="usernameFieldIsDisplayed" finished-at="2025-05-27T17:42:45 CEST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameFieldIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:45 CEST" name="tearDown" finished-at="2025-05-27T17:42:45 CEST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:45 CEST" name="setUp" finished-at="2025-05-27T17:42:46 CEST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:46 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:47 CEST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="passwordFieldIsDisplayed()[pri:7, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:47 CEST" name="passwordFieldIsDisplayed" finished-at="2025-05-27T17:42:47 CEST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordFieldIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:47 CEST" name="tearDown" finished-at="2025-05-27T17:42:48 CEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:48 CEST" name="setUp" finished-at="2025-05-27T17:42:48 CEST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:48 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:49 CEST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="signButtonIsOnThePage()[pri:8, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:49 CEST" name="signButtonIsOnThePage" finished-at="2025-05-27T17:42:49 CEST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signButtonIsOnThePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:49 CEST" name="tearDown" finished-at="2025-05-27T17:42:50 CEST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:50 CEST" name="setUp" finished-at="2025-05-27T17:42:50 CEST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:50 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:51 CEST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="isAdminRadioButtonDisplayed()[pri:9, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:51 CEST" name="isAdminRadioButtonDisplayed" finished-at="2025-05-27T17:42:51 CEST" duration-ms="81" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Admin radio button is not displayed on the page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Admin radio button is not displayed on the page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.LoginTest_PagePractise.isAdminRadioButtonDisplayed(LoginTest_PagePractise.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAdminRadioButtonDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:52 CEST" name="tearDown" finished-at="2025-05-27T17:42:52 CEST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:52 CEST" name="setUp" finished-at="2025-05-27T17:42:53 CEST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:53 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:54 CEST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="isUserRadioButtonDisplayed()[pri:10, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:54 CEST" name="isUserRadioButtonDisplayed" finished-at="2025-05-27T17:42:54 CEST" duration-ms="79" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User radio button is not displayed on the page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User radio button is not displayed on the page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.LoginTest_PagePractise.isUserRadioButtonDisplayed(LoginTest_PagePractise.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserRadioButtonDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:54 CEST" name="tearDown" finished-at="2025-05-27T17:42:55 CEST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:55 CEST" name="setUp" finished-at="2025-05-27T17:42:55 CEST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:55 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:56 CEST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="verifyDropdownOptionsAndSelection()[pri:11, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:56 CEST" name="verifyDropdownOptionsAndSelection" finished-at="2025-05-27T17:42:57 CEST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownOptionsAndSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:57 CEST" name="tearDown" finished-at="2025-05-27T17:42:57 CEST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:57 CEST" name="setUp" finished-at="2025-05-27T17:42:58 CEST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:58 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:42:59 CEST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="isAgreeTermsOnPage()[pri:12, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:59 CEST" name="isAgreeTermsOnPage" finished-at="2025-05-27T17:42:59 CEST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAgreeTermsOnPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:59 CEST" name="tearDown" finished-at="2025-05-27T17:42:59 CEST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:42:59 CEST" name="setUp" finished-at="2025-05-27T17:43:00 CEST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:00 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:43:01 CEST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="isAgreeTermsIsSelected()[pri:13, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:01 CEST" name="isAgreeTermsIsSelected" finished-at="2025-05-27T17:43:01 CEST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAgreeTermsIsSelected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:01 CEST" name="tearDown" finished-at="2025-05-27T17:43:01 CEST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:01 CEST" name="setUp" finished-at="2025-05-27T17:43:02 CEST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:02 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:43:03 CEST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage_Practise -->
+        <test-method signature="testUserRadioSelection()[pri:14, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:03 CEST" name="testUserRadioSelection" finished-at="2025-05-27T17:43:04 CEST" duration-ms="904" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User radio button should be selected after confirmation expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User radio button should be selected after confirmation expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.LoginTest_PagePractise.testUserRadioSelection(LoginTest_PagePractise.java:176)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRadioSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@3bd323e9]" started-at="2025-05-27T17:43:04 CEST" name="tearDown" finished-at="2025-05-27T17:43:04 CEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest_PagePractise -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

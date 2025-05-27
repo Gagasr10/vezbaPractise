@@ -1,0 +1,167 @@
+
+
+2025-05-18 15:32:22 [INFO] tests.LoginTest - Validating welcome message: Hello Miller442,
+2025-05-18 15:32:22 [INFO] tests.LoginTest - End tc --> successfullLogin
+2025-05-18 18:22:29 [INFO] tests.LoginTest - Start tc --> logoutFunctionality
+2025-05-18 18:24:04 [INFO] tests.LoginTest - Start tc --> logoutFunctionality
+2025-05-18 18:28:25 [INFO] tests.LoginTest - Starting verifyLoginFormDisplayed
+2025-05-18 18:28:27 [INFO] tests.LoginTest - Starting loginEmptyFields
+2025-05-18 18:28:31 [INFO] tests.LoginTest - Starting loginWrongCredentials
+2025-05-18 18:28:35 [INFO] tests.LoginTest - Starting clickOnForgotPassword
+2025-05-18 18:28:38 [INFO] tests.LoginTest - Starting resetPassword
+2025-05-18 18:28:42 [INFO] tests.LoginTest - Start tc checkboxIsPresent
+2025-05-18 18:28:45 [INFO] tests.LoginTest - Start tc --> checkboxRememberMeSelected
+2025-05-18 18:28:47 [INFO] tests.LoginTest - Start tc --> checkboxAgreeSelected
+2025-05-18 18:28:50 [INFO] tests.LoginTest - Start tc --> checkboxAllSelected
+2025-05-18 18:28:55 [INFO] tests.LoginTest - Validating welcome message: Hello Miller442,
+2025-05-18 18:28:55 [INFO] tests.LoginTest - End tc --> successfullLogin
+2025-05-18 18:28:57 [INFO] tests.LoginTest - Start tc --> logoutFunctionality
+2025-05-25 07:47:35 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-25 07:50:59 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-25 07:51:03 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-25 08:09:56 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-25 08:09:58 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-25 08:12:27 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-25 08:12:29 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-25 08:12:29 [INFO] tests.LoginTest_PagePractise - URL after failed login: https://rahulshettyacademy.com/loginpagePractise/
+2025-05-25 08:37:41 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-25 08:37:41 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-25 08:51:44 [INFO] tests.LoginTest_PagePractise - Starting loginWithOnlyUsername
+2025-05-25 08:51:44 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 14:15:17 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-26 14:15:22 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-26 14:15:25 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-26 14:15:27 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 14:15:27 [INFO] tests.LoginTest_PagePractise - URL after failed login: https://rahulshettyacademy.com/loginpagePractise/
+2025-05-26 14:15:29 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-26 14:15:29 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 14:15:31 [INFO] tests.LoginTest_PagePractise - Starting loginWithOnlyUsername
+2025-05-26 14:15:31 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 17:34:57 [INFO] tests.LoginTest_PagePractise - Starting loginOnlyWithPassword
+2025-05-26 17:35:31 [INFO] tests.LoginTest_PagePractise - Starting loginOnlyWithPassword
+2025-05-26 17:35:33 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 17:44:11 [INFO] tests.LoginTest_PagePractise - Starting usernameField is on the page
+2025-05-26 17:46:49 [INFO] tests.LoginTest_PagePractise - Starting username field is on the page
+2025-05-26 17:49:19 [INFO] tests.LoginTest_PagePractise - Starting signButton --> IsOnThePage
+2025-05-26 17:59:31 [INFO] tests.LoginTest_PagePractise - Starting verifyDropdownOptionsAndSelection
+2025-05-26 18:06:02 [INFO] tests.LoginTest_PagePractise - Starting verifyDropdownOptionsAndSelection
+2025-05-26 18:06:02 [INFO] tests.LoginTest_PagePractise - verifyDropdownOptionsAndSelection passed
+2025-05-26 18:32:23 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:32:52 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:33:50 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:34:56 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:36:14 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:36:46 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:37:15 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 18:39:06 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 20:49:49 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 20:50:09 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-26 20:50:14 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-26 20:50:17 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-26 20:50:19 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 20:50:19 [INFO] tests.LoginTest_PagePractise - URL after failed login: https://rahulshettyacademy.com/loginpagePractise/
+2025-05-26 20:50:21 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-26 20:50:22 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 20:50:24 [INFO] tests.LoginTest_PagePractise - Starting loginWithOnlyUsername
+2025-05-26 20:50:24 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 20:50:26 [INFO] tests.LoginTest_PagePractise - Starting loginOnlyWithPassword
+2025-05-26 20:50:29 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 20:50:31 [INFO] tests.LoginTest_PagePractise - Starting usernameField is on the page
+2025-05-26 20:50:33 [INFO] tests.LoginTest_PagePractise - Starting username field is on the page
+2025-05-26 20:50:35 [INFO] tests.LoginTest_PagePractise - Starting signButton --> IsOnThePage
+2025-05-26 20:50:37 [INFO] tests.LoginTest_PagePractise - Starting isAdminRadioButtonDisplayed
+2025-05-26 20:50:40 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 20:50:42 [INFO] tests.LoginTest_PagePractise - Starting verifyDropdownOptionsAndSelection
+2025-05-26 20:50:43 [INFO] tests.LoginTest_PagePractise - verifyDropdownOptionsAndSelection passed
+2025-05-26 20:50:45 [INFO] tests.LoginTest_PagePractise - Starting is isAgreeTermsOnPage
+2025-05-26 20:50:47 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-26 20:53:26 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 20:57:07 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 20:59:11 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 21:04:02 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 21:05:05 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 21:13:42 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-26 21:13:46 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-26 21:13:48 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-26 21:13:50 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 21:13:50 [INFO] tests.LoginTest_PagePractise - URL after failed login: https://rahulshettyacademy.com/loginpagePractise/
+2025-05-26 21:13:52 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-26 21:13:53 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 21:13:54 [INFO] tests.LoginTest_PagePractise - Starting loginWithOnlyUsername
+2025-05-26 21:13:55 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 21:13:57 [INFO] tests.LoginTest_PagePractise - Starting loginOnlyWithPassword
+2025-05-26 21:14:00 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-26 21:14:02 [INFO] tests.LoginTest_PagePractise - Starting usernameField is on the page
+2025-05-26 21:14:04 [INFO] tests.LoginTest_PagePractise - Starting username field is on the page
+2025-05-26 21:14:07 [INFO] tests.LoginTest_PagePractise - Starting signButton --> IsOnThePage
+2025-05-26 21:14:08 [INFO] tests.LoginTest_PagePractise - Starting isAdminRadioButtonDisplayed
+2025-05-26 21:14:11 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-26 21:14:14 [INFO] tests.LoginTest_PagePractise - Starting verifyDropdownOptionsAndSelection
+2025-05-26 21:14:15 [INFO] tests.LoginTest_PagePractise - verifyDropdownOptionsAndSelection passed
+2025-05-26 21:14:17 [INFO] tests.LoginTest_PagePractise - Starting is isAgreeTermsOnPage
+2025-05-26 21:14:19 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-27 13:33:52 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-27 13:43:46 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
+2025-05-27 13:44:37 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
+2025-05-27 13:48:21 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
+2025-05-27 13:49:01 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
+2025-05-27 13:49:02 [INFO] tests.LoginTest_PagePractise - Radio button selected? -> false
+2025-05-27 17:02:59 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-27 17:03:07 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-27 17:03:09 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-27 17:03:12 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:03:12 [INFO] tests.LoginTest_PagePractise - URL after failed login: https://rahulshettyacademy.com/loginpagePractise/
+2025-05-27 17:03:14 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-27 17:03:14 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:03:16 [INFO] tests.LoginTest_PagePractise - Starting loginWithOnlyUsername
+2025-05-27 17:03:17 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:03:19 [INFO] tests.LoginTest_PagePractise - Starting loginOnlyWithPassword
+2025-05-27 17:03:21 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:03:23 [INFO] tests.LoginTest_PagePractise - Starting usernameField is on the page
+2025-05-27 17:03:25 [INFO] tests.LoginTest_PagePractise - Starting username field is on the page
+2025-05-27 17:03:27 [INFO] tests.LoginTest_PagePractise - Starting signButton --> IsOnThePage
+2025-05-27 17:03:29 [INFO] tests.LoginTest_PagePractise - Starting isAdminRadioButtonDisplayed
+2025-05-27 17:03:32 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-27 17:03:34 [INFO] tests.LoginTest_PagePractise - Starting verifyDropdownOptionsAndSelection
+2025-05-27 17:03:35 [INFO] tests.LoginTest_PagePractise - verifyDropdownOptionsAndSelection passed
+2025-05-27 17:03:37 [INFO] tests.LoginTest_PagePractise - Starting is isAgreeTermsOnPage
+2025-05-27 17:03:39 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-27 17:03:42 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
+2025-05-27 17:03:43 [INFO] tests.LoginTest_PagePractise - Radio button selected? -> false
+2025-05-27 17:13:29 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-27 17:15:13 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-27 17:18:27 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-27 17:18:27 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:24:44 [INFO] tests.LoginTest - Starting verifyLoginFormDisplayed
+2025-05-27 17:24:48 [INFO] tests.LoginTest - Starting loginEmptyFields
+2025-05-27 17:24:51 [INFO] tests.LoginTest - Starting loginWrongCredentials
+2025-05-27 17:24:56 [INFO] tests.LoginTest - Starting clickOnForgotPassword
+2025-05-27 17:24:59 [INFO] tests.LoginTest - Starting resetPassword
+2025-05-27 17:25:02 [INFO] tests.LoginTest - Start tc checkboxIsPresent
+2025-05-27 17:25:05 [INFO] tests.LoginTest - Start tc --> checkboxRememberMeSelected
+2025-05-27 17:25:07 [INFO] tests.LoginTest - Start tc --> checkboxAgreeSelected
+2025-05-27 17:25:10 [INFO] tests.LoginTest - Start tc --> checkboxAllSelected
+2025-05-27 17:25:16 [INFO] tests.LoginTest - Validating welcome message: Hello Miller442,
+2025-05-27 17:25:16 [INFO] tests.LoginTest - End tc --> successfullLogin
+2025-05-27 17:25:18 [INFO] tests.LoginTest - Start tc --> logoutFunctionality
+2025-05-27 17:42:24 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-05-27 17:42:29 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-05-27 17:42:31 [INFO] tests.LoginTest_PagePractise - Starting loginInvalidPassword
+2025-05-27 17:42:34 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:42:34 [INFO] tests.LoginTest_PagePractise - URL after failed login: https://rahulshettyacademy.com/loginpagePractise/
+2025-05-27 17:42:36 [INFO] tests.LoginTest_PagePractise - Starting loginEmptyFields..
+2025-05-27 17:42:36 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:42:38 [INFO] tests.LoginTest_PagePractise - Starting loginWithOnlyUsername
+2025-05-27 17:42:39 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:42:40 [INFO] tests.LoginTest_PagePractise - Starting loginOnlyWithPassword
+2025-05-27 17:42:43 [INFO] tests.LoginTest_PagePractise - Is error message displayed: true
+2025-05-27 17:42:45 [INFO] tests.LoginTest_PagePractise - Starting usernameField is on the page
+2025-05-27 17:42:47 [INFO] tests.LoginTest_PagePractise - Starting username field is on the page
+2025-05-27 17:42:49 [INFO] tests.LoginTest_PagePractise - Starting signButton --> IsOnThePage
+2025-05-27 17:42:51 [INFO] tests.LoginTest_PagePractise - Starting isAdminRadioButtonDisplayed
+2025-05-27 17:42:54 [INFO] tests.LoginTest_PagePractise - Starting isUserRadioButtonDisplayed
+2025-05-27 17:42:56 [INFO] tests.LoginTest_PagePractise - Starting verifyDropdownOptionsAndSelection
+2025-05-27 17:42:57 [INFO] tests.LoginTest_PagePractise - verifyDropdownOptionsAndSelection passed
+2025-05-27 17:42:59 [INFO] tests.LoginTest_PagePractise - Starting is isAgreeTermsOnPage
+2025-05-27 17:43:01 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
+2025-05-27 17:43:03 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
