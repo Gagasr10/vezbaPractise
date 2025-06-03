@@ -38,15 +38,15 @@ public class BaseTest {
 
         switch (browser.toLowerCase()) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "C:\\BrowserDrivers\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriveri\\chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", "C:\\BrowserDrivers\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\BrowserDriveri\\geckodriver.exe");
                 driver = new FirefoxDriver();
                 break;
             case "edge":
-                System.setProperty("webdriver.edge.driver", "C:\\BrowserDrivers\\msedgedriver.exe");
+                System.setProperty("webdriver.edge.driver", "C:\\BrowserDriveri\\msedgedriver.exe");
                 driver = new EdgeDriver();
                 break;
             default:
