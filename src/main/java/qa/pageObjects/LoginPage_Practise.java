@@ -18,6 +18,7 @@ public class LoginPage_Practise {
 	private WebDriver driver ;
 	private WebDriverWait wait;
 	
+	
 	@FindBy(id = "username")
 	private WebElement usernameInput;
 	
