@@ -11,47 +11,46 @@ import org.testng.annotations.*;
 
 import org.apache.logging.log4j.core.config.Configurator;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigReader;
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    protected static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     protected ConfigReader config;
     protected WebDriverWait wait;
 
-
     @BeforeSuite
     public void configureLogging() {
-        // Ručna inicijalizacija Log4j2 konfiguracije
         Configurator.initialize(null, "src/test/resources/log4j2.properties");
         System.out.println("Log4j2 configuration initialized.");
     }
 
+    @Parameters("browser")
     @BeforeMethod
-    public void setUp() {
+    public void setUp(@Optional("chrome") String browser) {
         config = new ConfigReader();
-        String browser = config.getProperty("browser").trim();
 
-        if (browser == null || browser.isEmpty()) {
-            browser = "chrome";
-        }
+        WebDriver driver;
 
         switch (browser.toLowerCase()) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriveri\\chromedriver.exe");
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 break;
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", "C:\\BrowserDriveri\\geckodriver.exe");
+                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
             case "edge":
-                System.setProperty("webdriver.edge.driver", "C:\\BrowserDriveri\\msedgedriver.exe");
+                WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
             default:
                 throw new RuntimeException("Unsupported browser: " + browser);
         }
+
+        threadDriver.set(driver);
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();
@@ -61,20 +60,21 @@ public class BaseTest {
     public void goToUrl(String urlKey) {
         String url = config.getProperty(urlKey);
         if (url != null && !url.isEmpty()) {
-            driver.get(url);
+            getDriver().get(url);
         } else {
             throw new RuntimeException("URL is not found or empty for key: " + urlKey);
         }
     }
 
     public WebDriver getDriver() {
-        return driver;
+        return threadDriver.get();
     }
 
     @AfterMethod
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
+        if (getDriver() != null) {
+            getDriver().quit();
+            threadDriver.remove();
         }
     }
 }

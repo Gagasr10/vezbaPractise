@@ -165,3 +165,15 @@
 2025-05-27 17:42:59 [INFO] tests.LoginTest_PagePractise - Starting is isAgreeTermsOnPage
 2025-05-27 17:43:01 [INFO] tests.LoginTest_PagePractise - Starting isAgreeTermsIsSelected
 2025-05-27 17:43:03 [INFO] tests.LoginTest_PagePractise - Starting test UserRadioSelection
+2025-06-04 10:00:39 [INFO] tests.LoginTest_PagePractise - Starting login test with valid credentials...
+2025-06-04 10:00:43 [INFO] tests.LoginTest_PagePractise - Current URL after login: https://rahulshettyacademy.com/angularpractice/shop
+2025-06-04 10:05:22 [INFO] tests.AutomationPracticeTests - Start tc02_selectSecondRadioButton
+2025-06-04 10:20:44 [INFO] tests.AutomationPracticeTests - Start tc01 selectedFirstRadioButton
+2025-06-04 10:20:46 [INFO] tests.AutomationPracticeTests - Start tc02_selectSecondRadioButton
+2025-06-04 10:24:25 [INFO] tests.AutomationPracticeTests - Start tc04_onlyOneRadioButtonSelected
+2025-06-04 10:24:26 [INFO] tests.AutomationPracticeTests - End tc04_onlyOneRadioButtonSelected
+2025-06-04 10:25:01 [INFO] tests.AutomationPracticeTests - Start tc01 selectedFirstRadioButton
+2025-06-04 10:25:08 [INFO] tests.AutomationPracticeTests - Start tc02_selectSecondRadioButton
+2025-06-04 10:25:15 [INFO] tests.AutomationPracticeTests - Start tc03_selectedThirdRadioButton
+2025-06-04 10:25:22 [INFO] tests.AutomationPracticeTests - Start tc04_onlyOneRadioButtonSelected
+2025-06-04 10:25:23 [INFO] tests.AutomationPracticeTests - End tc04_onlyOneRadioButtonSelected

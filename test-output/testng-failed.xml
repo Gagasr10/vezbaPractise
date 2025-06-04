@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest_PagePractise">
+      <class name="tests.AutomationPracticeTests">
         <methods>
-          <include name="testUserRadioSelection"/>
           <include name="configureLogging"/>
-          <include name="openLoginPage_Practise"/>
-          <include name="isAdminRadioButtonDisplayed"/>
-          <include name="isUserRadioButtonDisplayed"/>
           <include name="tearDown"/>
+          <include name="openAutomationPractisePage"/>
+          <include name="TC02_selectSecondRadioButton"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.LoginTest_PagePractise -->
+      </class> <!-- tests.AutomationPracticeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

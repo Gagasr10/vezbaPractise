@@ -1,4 +1,4 @@
-package qa.pageObjects
+package qa.pageObjects ;
 
 import java.time.Duration;
 
@@ -16,13 +16,13 @@ public class AutomationPracticePage {
 	Actions action ; 
 	
 	
-	public AutomationPracticePage (WebDriver driver) {
-		this.driver= driver;
-		this.action = action;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		PageFactory.initElements(driver, this);	
-			
+	public AutomationPracticePage(WebDriver driver) {
+	    this.driver = driver;
+	    this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	    this.action = new Actions(driver);
+	    PageFactory.initElements(driver, this);
 	}
+
 	
 	
 	@FindBy(css="input[value='radio1']")
@@ -55,8 +55,16 @@ public class AutomationPracticePage {
 		radioButton2.click();
 	}
 	
+	public boolean isRadioButton2Selected() {
+		return radioButton2.isSelected();
+	}
+	
 	public void selectThirdRadioButton() {
 		radioButton3.click();
+	}
+	
+	public boolean isRadioButton3Selected() {
+		return radioButton3.isSelected();
 	}
 	
 	
