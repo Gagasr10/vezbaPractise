@@ -1,33 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T17:18:23 CEST" name="Default suite" finished-at="2025-05-27T17:18:27 CEST" duration-ms="3758">
+  <suite started-at="2025-06-04T10:24:54 CEST" name="Default suite" finished-at="2025-06-04T10:25:23 CEST" duration-ms="29394">
     <groups>
     </groups>
-    <test started-at="2025-05-27T17:18:23 CEST" name="Default test" finished-at="2025-05-27T17:18:27 CEST" duration-ms="3758">
-      <class name="tests.LoginTest_PagePractise">
-        <test-method is-config="true" signature="configureLogging()[pri:0, instance:tests.LoginTest_PagePractise@758705fa]" started-at="2025-05-27T17:18:23 CEST" name="configureLogging" finished-at="2025-05-27T17:18:23 CEST" duration-ms="36" status="PASS">
+    <test started-at="2025-06-04T10:24:54 CEST" name="Default test" finished-at="2025-06-04T10:25:23 CEST" duration-ms="29394">
+      <class name="tests.AutomationPracticeTests">
+        <test-method is-config="true" signature="configureLogging()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:24:54 CEST" name="configureLogging" finished-at="2025-06-04T10:24:54 CEST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureLogging -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest_PagePractise@758705fa]" started-at="2025-05-27T17:18:24 CEST" name="setUp" finished-at="2025-05-27T17:18:26 CEST" duration-ms="1792" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:24:54 CEST" name="setUp" finished-at="2025-06-04T10:24:55 CEST" duration-ms="1537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openLoginPage_Practise()[pri:0, instance:tests.LoginTest_PagePractise@758705fa]" started-at="2025-05-27T17:18:26 CEST" name="openLoginPage_Practise" finished-at="2025-05-27T17:18:27 CEST" duration-ms="901" status="PASS">
+        <test-method is-config="true" signature="openAutomationPractisePage()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:24:55 CEST" name="openAutomationPractisePage" finished-at="2025-06-04T10:25:01 CEST" duration-ms="5553" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openLoginPage_Practise -->
-        <test-method signature="loginEmptyFields()[pri:3, instance:tests.LoginTest_PagePractise@758705fa]" started-at="2025-05-27T17:18:27 CEST" name="loginEmptyFields" finished-at="2025-05-27T17:18:27 CEST" duration-ms="466" status="PASS">
+        </test-method> <!-- openAutomationPractisePage -->
+        <test-method signature="TC01_selectFirstRadioButton()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:01 CEST" name="TC01_selectFirstRadioButton" finished-at="2025-06-04T10:25:01 CEST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginEmptyFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest_PagePractise@758705fa]" started-at="2025-05-27T17:18:27 CEST" name="tearDown" finished-at="2025-05-27T17:18:27 CEST" duration-ms="191" status="PASS">
+        </test-method> <!-- TC01_selectFirstRadioButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:01 CEST" name="tearDown" finished-at="2025-06-04T10:25:01 CEST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest_PagePractise -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:01 CEST" name="setUp" finished-at="2025-06-04T10:25:02 CEST" duration-ms="780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openAutomationPractisePage()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:02 CEST" name="openAutomationPractisePage" finished-at="2025-06-04T10:25:08 CEST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAutomationPractisePage -->
+        <test-method signature="TC02_selectSecondRadioButton()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:08 CEST" name="TC02_selectSecondRadioButton" finished-at="2025-06-04T10:25:08 CEST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_selectSecondRadioButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:08 CEST" name="tearDown" finished-at="2025-06-04T10:25:09 CEST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:09 CEST" name="setUp" finished-at="2025-06-04T10:25:09 CEST" duration-ms="857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openAutomationPractisePage()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:09 CEST" name="openAutomationPractisePage" finished-at="2025-06-04T10:25:15 CEST" duration-ms="6037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAutomationPractisePage -->
+        <test-method signature="TC03_selectThirdRadioButton()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:15 CEST" name="TC03_selectThirdRadioButton" finished-at="2025-06-04T10:25:16 CEST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_selectThirdRadioButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:16 CEST" name="tearDown" finished-at="2025-06-04T10:25:16 CEST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:16 CEST" name="setUp" finished-at="2025-06-04T10:25:17 CEST" duration-ms="770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openAutomationPractisePage()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:17 CEST" name="openAutomationPractisePage" finished-at="2025-06-04T10:25:22 CEST" duration-ms="5567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAutomationPractisePage -->
+        <test-method signature="TC04_onlyOneRadioButtonSelected()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:22 CEST" name="TC04_onlyOneRadioButtonSelected" finished-at="2025-06-04T10:25:23 CEST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_onlyOneRadioButtonSelected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTests@35229f85]" started-at="2025-06-04T10:25:23 CEST" name="tearDown" finished-at="2025-06-04T10:25:23 CEST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AutomationPracticeTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
